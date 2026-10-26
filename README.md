@@ -9,7 +9,7 @@ This project evaluates patient admission patterns, departmental length of stay, 
 ---
 
 ## Business Challenge
-Hospital leadership needed to understand what factors drive extended inpatient stays, how emergency workloads are distributed across patient demographics and facilities, and how facility capacity constraints impact overall patient throughput[span_1](start_span)[span_1](end_span).
+Hospital leadership needed to understand what factors drive extended inpatient stays, how emergency workloads are distributed across patient demographics and facilities, and how facility capacity constraints impact overall patient throughput[span_1](start span)[span_1](end span).
 
 ---
 
@@ -22,7 +22,7 @@ Hospital leadership needed to understand what factors drive extended inpatient s
 
 ## Dataset Source & Link
 - Dataset: Healthcare Analytics Dataset (Analytics Vidhya / Kaggle structure)
-- Link: [Dataset Source Link Placeholder] *(Note: Raw data files are linked externally per repository organization standards[span_2](start_span)[span_2](end_span).)*
+- Link: [Dataset Source Link Placeholder] *(Note: Raw data files are linked externally per repository organization standards[span_2](start span)[span_2](end span).)*
 
 ---
 
@@ -30,13 +30,13 @@ Hospital leadership needed to understand what factors drive extended inpatient s
 `text
 hospital-database-patient-treatment-analytics/
 ├── data/
-│   └── raw/              -- Link to source dataset[span_3](start_span)[span_3](end_span)
+│   └── raw/              -- Link to source dataset[span_3](start span)[span_3](end span)
 ├── sql/
 │   ├── schema.sql        -- Stage 1: Table DDL, keys, foreign keys, and indexes
 │   └── analysis.sql      -- Stage 2 & Stretch: Documented analytical queries & views
 ├── images/
-│   └── query_results.png -- Visual screenshots of key query outputs[span_4](start_span)[span_4](end_span)
-└── README.md             -- Project documentation, findings, and reflections[span_5](start_span)[span_5](end_span)
+│   └── query_results.png -- Visual screenshots of key query outputs[span_4](start span)[span_4](end span)
+└── README.md             -- Project documentation, findings, and reflections[span_5](start span)[span_5](end span)
 
 Business QuestionKey Analytical MetricPrimary Insight / Result Summary
 1. Average Length of Stay by DepartmentWeighted numeric midpoints of stay ranges (CASE mapping)Surgery (~37.4 days) and Radiotherapy (~33.2 days) record the longest average stays, driven by complex recovery cycles.
